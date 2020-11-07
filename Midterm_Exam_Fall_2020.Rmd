@@ -40,7 +40,7 @@ I have four columns:
 3. Share_Post (number of this person's life sharing posts), 
 4. City (location that this person lives in).
 
-I am interested in finding out whether or not City and Total_Post are the factors that would effect the number that people share their life online.
+I am interested in finding out whether or not City and Total_Post are the factors that would affect Share_Post.
 
 ```{r }
 # import data
@@ -131,8 +131,8 @@ The residuals locate on both sides of 0, but the pattern is not even.
 ```{r}
 plot(f1)
 ```
-The red lines in first and the third plot residual plot are not flat, I think it is due to the shortage of large values.
-I need more observations, right now the data is not representative, and pattern is led by the outliers.
+The red lines in first and the third plot are not flat, I think it is due to the shortage of large values.
+I need more observations, right now the data is not representative, and the pattern is led by the outliers.
 
 ### Inference (10pts)
 
@@ -149,7 +149,7 @@ If the number of total posts increase by 1, the number of life-sharing posts wou
 
 Please clearly state your conclusion and the implication of the result.
 
-After the analysis, the best model is the simple linear regression. It shows that living in different cities would not effect my friends on the frequency of sharing life online, but their total number of posts does. As they post more things online, they tend to share their life more.
+After the analysis, the best model is the simple linear regression. It shows that living in different cities would not affect my friends on the frequency of sharing life online, but their total number of posts does. As they post more things online, they tend to share their life more.
 
 ### Limitations and future opportunity. (10pts)
 
